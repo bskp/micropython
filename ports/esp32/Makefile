@@ -53,7 +53,7 @@ SDKCONFIG_H = $(BUILD)/sdkconfig.h
 
 # The git hash of the currently supported ESP IDF version.
 # These correspond to v3.3.1 and v4.0.
-ESPIDF_SUPHASH_V3 := 143d26aa49df524e10fb8e41a71d12e731b9b71d
+ESPIDF_SUPHASH_V3 := cc02b01ea59e112e6ccf7fc3b66f3624f5d41167  # patched MCPWM update behaviour, based upon v3.3.1
 ESPIDF_SUPHASH_V4 := 463a9d8b7f9af8205222b80707f9bdbba7c530e1
 
 define print_supported_git_hash
